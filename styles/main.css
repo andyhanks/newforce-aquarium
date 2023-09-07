@@ -1,0 +1,48 @@
+
+header{
+    width: 100rem;
+    justify-content: center;
+    background-color: cornflowerblue;
+}
+main{
+    float: left;
+    background-color: rgb(173, 242, 219);
+}
+img{
+    display:flex;
+    background-color: midnightblue;
+    height: 100px;
+    width: 175px;
+}
+#fish_title{
+    display: flex;
+    justify-content: center;
+}
+.fish {
+    display: flex;
+    flex-wrap: wrap;  /* Let the rows wrap if there are too many */
+    justify-content: space-evenly; /* Evenly space the child elements */
+    border: 1px blue;
+    padding: 1em;
+}
+
+
+#quotes{
+columns: 1;
+}
+#footer {
+    position: absolute;
+    background-color: darkcyan;
+    bottom: 0;
+    width: 100rem;
+    height: 2.5rem;            /* Footer height */
+  }
+  .notes{ 
+    padding: 5px;
+    background-color: coral; 
+    width: 10rem;
+    float: right;
+    flex-flow: column wrap;
+   
+   
+}
