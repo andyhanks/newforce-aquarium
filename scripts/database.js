@@ -5,47 +5,46 @@
  *  fish to the collection.
  */
 
-const img = document.querySelector("img"); // this should look for fishPics
-img.src = "";
+
 
 const database = {
     fish: [
         {
-            fishName: "Bart",
+            name: "Bart",
             species:"Octopus",
             food: "crustaceans",
-            size: 3,
-            home: "Florida",
+            length: 3,
+            location: "Florida",
             description:"8 arms, round head, scrappy",
-            fishPic: img,
+            image:"https://media.istockphoto.com/id/108315796/photo/octopus-dive.jpg?s=2048x2048&w=is&k=20&c=VJR828tpiBZ1kNmNbDO8TB_X6KE94EjfOOmM5ubOL9k=",
         },
         {
-            fishName: "Snuggles",
+            name: "Snuggles",
             species:"Clown Fish",
             food: "Kelp",
-            size: 12,
-            home: "Maui",
+            length: 12,
+            location: "Maui",
             description:"small",
-            fishPic: img,
+            image:"https://media.istockphoto.com/id/1212886661/photo/clownfish.jpg?s=2048x2048&w=is&k=20&c=u9PQ901OxwQgaFbZFQ003adBXzSMkEeGq7KhllvJvMA=",
         },
         {
-            fishName: "Jaws",
+            name: "Jaws",
             species:"Algae Eater",
             food: "Algae",
-            size: 6,
-            home: "Walmart",
+            length: 6,
+            location: "Walmart",
             description:"small, gross",
-            fishPic: img,
+            image:"https://media.istockphoto.com/id/1461098526/photo/ancistrus-tropical-fish-bristlenose-catfish-on-the-glass.jpg?s=2048x2048&w=is&k=20&c=yQ9d4-IoZ-KtLMq1mRvDzPBpz5H6_CQHhoKv0mWciyI=",
         },
 
         {
-            fishName: "Beelzabub",
+            name: "Beelzabub",
             species:"Angel Fish",
             food: "Angel Food Cake",
-            size: 3,
-            home: "Parts Unknown",
+            length: 3,
+            location: "Parts Unknown",
             description:"Bright",
-            fishPic: img,
+            image:"https://media.istockphoto.com/id/177095679/photo/bluering-orange-and-blue-angelfish-with-white-tail.jpg?b=1&s=612x612&w=0&k=20&c=MN2sh5b1Cqnn9p2Omf69oXoexpwQ6dlu2XmIX_0KJaA=",
         }
 
     ]
